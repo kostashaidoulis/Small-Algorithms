@@ -30,13 +30,7 @@ public class Git_algorithmic_solutions {
                System.out.print(temp + "\n");
            } 
        }
-       
-       for(int i = 0; i < animals.length; i++) {
-           temp = animals[i];
-           char first = temp.charAt(0);
-           temp = (first != p) ? animals[i] : temp;
-           System.out.print(temp);
-       }
+        
     }
     
 }
