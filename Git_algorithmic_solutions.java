@@ -31,6 +31,28 @@ public class Git_algorithmic_solutions {
            } 
        }
         
+       // Reverse an Array 
+       int arr[] = {1, 3, 10, 45, 23, 1, -2};
+       int arr_reverse[] = new int[arr.length];
+       int temp = 0;
+       int count = 0;
+       
+       for(int i = arr.length; i > 0; i--) {
+           counter += 1;
+           temp = arr[i - 1];
+           arr_reverse[count - 1] = temp;
+       }
+       
+       for(int i = 0; i < arr.length; i++) {
+           System.out.print(arr[i] + " ");
+       }
+        
+       System.out.print("\n");
+        
+       for(int i = 0; i < arr_reverse.length; i++){
+           System.out.print(arr_reverse[i] + " ");
+       }
+        
     }
     
 }
