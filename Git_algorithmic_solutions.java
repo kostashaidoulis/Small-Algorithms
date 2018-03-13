@@ -53,6 +53,21 @@ public class Git_algorithmic_solutions {
            System.out.print(arr_reverse[i] + " ");
        }
         
+        //Smaller Bigger in Array With ternary operator
+       int arr[] = {1, 3, 10, 45, 23, 1, -2};
+       int smaller = arr[0];
+       int bigger = arr[0];
+       
+       for(int i = 0; i < arr.length; i++) {
+           
+           smaller = smaller > arr[i] ? smaller = arr[i] : smaller;
+           bigger = bigger < arr[i] ? bigger = arr[i] : bigger;
+           
+       }
+       System.out.print(smaller);
+       System.out.print("\n");
+       System.out.print(bigger);
+       System.out.print("\n");
     }
     
 }
