@@ -17,6 +17,16 @@ public class Git_algorithmic_solutions {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //Factorial
+        
+        int fact = 5;
+       
+       for(int i = 1; i < 5; i++) {
+           fact *= i; 
+       }
+       
+       System.out.print(fact);
+        
        // Display all words except the ones begining with a letter e.x "p"
         
        String animals[] = {"cat", "dog", "pig", "rabit", "parrot"};
