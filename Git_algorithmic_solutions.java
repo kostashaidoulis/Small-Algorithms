@@ -80,4 +80,29 @@ public class Git_algorithmic_solutions {
        System.out.print("\n");
     }
     
+   //Harmonic Sequence 
+    float temp = 1;
+    float unchanged = 1;
+        
+     for(int i = 1; i < 6; i++) {
+            if(i == 1) {
+                temp = 1;
+            } else {
+                temp += (unchanged / i);
+            }
+            System.out.println(temp + " ");
+        }
+    
+    //Pronic Numbers
+    int pronic = 0;
+    int n = 1;
+    //Variable that can be changed by the user
+    int set;
+    for(int j = 1; j < set + 1; j++) {
+            n += 1;
+            pronic = j * n;
+            
+            System.out.println(pronic);
+         }
+    
 }
